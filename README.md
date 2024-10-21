@@ -20,8 +20,8 @@ This is used in the demonstration of the development of Ansible Playbooks.
 
 Install Python Flask dependency
 ```bash
-pip3 install flask
-pip3 install flask-mysql
+pipx install flask
+pipx install flask-mysql
 ```
 
 - Copy `app.py` or download it from a source repository
@@ -40,4 +40,3 @@ Open a browser and go to URL
 ```
 http://<IP>:5000                            => Welcome
 http://<IP>:5000/how%20are%20you            => I am good, how about you?
-```
